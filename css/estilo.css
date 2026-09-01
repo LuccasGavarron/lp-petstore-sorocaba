@@ -303,3 +303,6 @@ section { padding: 3.2rem 0; }
 .pagina-simples h1 { margin-bottom: 0.3em; }
 .pagina-simples h2 { margin-top: 1.6em; font-size: 1.25rem; }
 .pagina-simples .voltar { display: inline-block; margin-bottom: 1.6rem; }
+
+/* nunca rolar lateralmente por causa de decoração */
+html,body{overflow-x:clip}
