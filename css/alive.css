@@ -52,11 +52,6 @@ a{color:var(--verde-escuro)}
   background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='52' height='52' viewBox='0 0 32 30'%3E%3Cg fill='%23E8863C'%3E%3Ccircle cx='8' cy='10' r='4'/%3E%3Ccircle cx='16' cy='6' r='4'/%3E%3Ccircle cx='24' cy='10' r='4'/%3E%3Cpath d='M16 27c-5 0-8-3-8-7s3.5-7 8-7 8 3 8 7-3 7-8 7Z'/%3E%3C/g%3E%3C/svg%3E")}
 
 /* barra de versões */
-.version-bar{position:fixed; bottom:1.1rem; left:1.1rem; z-index:90; display:flex; align-items:center; gap:.3rem;
-  background:var(--preto); border-radius:999px; padding:.35rem .6rem; box-shadow:0 8px 24px rgba(0,0,0,.35)}
-.version-bar__label{font:800 .74rem var(--corpo); color:#CFC9B8; margin-right:.2rem}
-.version-bar__link{font:800 .8rem var(--corpo); color:#EFE9D8; text-decoration:none; padding:.3rem .7rem; border-radius:999px}
-.version-bar__link.is-active{background:var(--laranja); color:#fff}
 .sr-only{position:absolute; width:1px; height:1px; overflow:hidden; clip:rect(0 0 0 0)}
 
 /* topo */
