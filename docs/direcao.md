@@ -55,3 +55,7 @@ Objetivo: 2 versões de landing fiéis à identidade real, para apresentar aos d
 Responsivo 375/768/1440 sem overflow; headings semânticos; alt text descritivo real; foco visível; contraste AA (laranja nunca texto pequeno sobre creme — usar verde-escuro); `prefers-reduced-motion`; reveals via IntersectionObserver apenas; sem console errors; anti-vibecoded (ícones SVG próprios arredondados, sem emoji na UI, sem gradiente berrante).
 
 > **02/09/2026:** as versões clássicas (v2.html/v3.html) e o seletor de versões foram removidos a pedido do cliente; o site publicado é só a Experiência (index.html).
+
+## 04/09/2026
+
+O site passou a ser a demo showcase do ProspectSEO (frontend/demos/petstore), gerada por `frontend/scripts/demo-standalone.sh petstore <este repo>`. Não editar index.html nem assets/ na mão: a fonte é o repositório do ProspectSEO. Fotos reais do @petstoresorocaba em alta resolução ficam em img/.
